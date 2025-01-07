@@ -30,8 +30,7 @@ public class Periodico extends Escrito{
 				this.getAutor()+"\n"+
 				this.getPaginas()+"\n"+
 				this.fecha+"\n"+
-				this.primicia+"\n"+
-				this.interpretacion;
+				this.primicia;
 		
 		return cadena;
 		
