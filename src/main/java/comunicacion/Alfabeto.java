@@ -2,7 +2,7 @@ package comunicacion;
 import java.util.ArrayList;
 
 public class Alfabeto extends Pictograma {
-	private static ArrayList<String> letras = new ArrayList<>();
+	private static ArrayList<String> letras = new ArrayList<String>();
 	private String interpretacion;
 	
 	public Alfabeto(String origen,ArrayList<String> letras,String interpretacion) {
