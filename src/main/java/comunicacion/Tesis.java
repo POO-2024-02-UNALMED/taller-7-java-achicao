@@ -33,7 +33,7 @@ public class Tesis extends Escrito{
 				this.getAutor()+"\n"+
 				this.getPaginas()+"\n"+
 				this.idea+"\n"+
-				Tesis.argumentos+"\n"+
+				Tesis.getCantidadArgumentos()+"\n"+
 				this.conclusion+"\n"+
 				this.referencias;
 		
@@ -79,6 +79,10 @@ public class Tesis extends Escrito{
 
     public void setInterpretacion(String interpretacion) {
         this.interpretacion = interpretacion;
+    }
+    
+    public static int getCantidadArgumentos() {
+    	return Tesis.argumentos.length;
     }
 	
 }
