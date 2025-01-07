@@ -1,5 +1,4 @@
 package comunicacion;
-import java.util.ArrayList;
 
 public class Alfabeto extends Pictograma {
 	private static String[] letras;
@@ -12,7 +11,7 @@ public class Alfabeto extends Pictograma {
 	}
 	
 	public int cantidadLetras() {
-		int numero = letras.lenght;
+		int numero = letras.length;
 		return numero;
 	}
 	
